@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Home page</title>
+</head>
+
+<body>
+  <!--------------NAVIGATION BAR----------------------->
+
+  <div class="header-container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top box-shadow py-3">
+      <div class="container">
+        <a class="navbar-brand fs-4 fw-bold" href="index.html">DD.</a>
+        <button id="menuToggle" class="navbar-toggler icon bg-warning" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon-btn bg-warning"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <ul class="navbar-nav aria-expanded ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html#aboutSection">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html#aboutSection">SKILLS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html#portfolioSection">PROJECTS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html#contactSection">CONTACT</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--------------HERO SECTION--------------->
+
+  <div class="hero-container">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-detail">
+          <h5>Hello There!!!</h5>
+          <h3>I'm <span class="text-warning display-3">Dassi Dieudonne</h3></span></h3>
+          <p>I'm a Front-End Developer</p>
+          <br>
+          <a href="index.html#contactSection" class="link fw-bold">Contact Me</a>
+        </div>
+
+        <img src="images/soft4.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!---------ABOUT SECTION--------------->
+
+  <div class="about-container" id="aboutSection">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-detail">
+          <h2>ABOUT ME</h2>
+          <p class="underline"></p>
+          <p>"My name is Dassi Dieudonne, and I'm a passionate Front-End Developer leveraging web technologies to build
+            amazing products. I focus on solving problems for various niches and industries using the power of
+            technology. I'm a lifelong learner, always eager to acquire new skills and technologies to continuously
+            enhance my expertise. Currently, I'm learning Node.js and Express.js for backend development.</p>
+        </div>
+        <div class="about-skills">
+          <h2>MY SKILLS</h2>
+          <p class="underline"></p>
+          <div class="about-render">
+            <div class="render">
+              <img src="images/html.png" alt="">
+              <h6 class="mt-2">HTML</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/css.png" alt="">
+              <h6 class="mt-2">CSS</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/sass.svg" alt="">
+              <h6 class="mt-2">SASS</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/bootstrap.png" alt="">
+              <h6 class="mt-2">BOOTSTRAP</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/js.webp" alt="">
+              <h6 class="mt-2">JAVASCRIPT</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/react.png" alt="">
+              <h6 class="mt-2">REACT.JS</h6>
+            </div>
+            <div class="render">
+              <img src="images/next.webp" alt="">
+              <h6 class="mt-2">NEXT.JS</h6>
+            </div>
+
+            <div class="render">
+              <img src="images/github1.png" alt="" class="icongithub">
+              <h6 class="mt-2">GITHUB</h6>
+            </div>
+
+
+            <div class="render">
+              <img src="images/git.png" alt="">
+              <h6 class="mt-2">GIT</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---------------PORTFOLIO SECTION------------------->
+
+  <div class="portfolio-container" id="portfolioSection">
+    <div class="container">
+      <h2 class="">PROJECTS</h2>
+      <p class="underline"></p>
+
+      <div class="portfolio-content">
+        <div class="portfolio-detail">
+          <img src="images/portfo.png" alt="">
+          <div class="text">
+            <h4 class="mt-3">Multiservices website</h4>
+            <p>Built with HTML/CSS/SCSS/JS</p>
+            <div class="d-flex">
+              <a href="https://drindsud.netlify.app/" target="_blank" class="btn btn-secondary">View Live</a>
+
+              <a href="https://github.com/dascomsoft/drindsud.git" target="_blank" class="btn btn-secondary ms-3">View
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-detail">
+          <img src="images/Barbing-Saloon.jpg" alt="">
+          <div class="text">
+            <h4 class="mt-3">Barbing  Saloon website</h4>
+            <p>Built with Next.js/Tailwind/Typescript</p>
+            <div class="d-flex">
+              <a href="https://beauty-diva.vercel.app/" target="_blank" class="btn btn-secondary">View Live</a>
+
+              <a href="https://github.com/dascomsoft/beauty.git" target="_blank" class="btn btn-secondary ms-3">View
+                code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <img src="images/portfo3.png" alt="">
+          <div class="text">
+            <h4 class="mt-3">Restaurant website</h4>
+            <p>Built with REACT/BOOTSTRAP</p>
+            <div class="d-flex">
+              <a href="https://da-food.netlify.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/foodresto.git" target="_blank" class="btn btn-secondary ms-3">View
+                code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <img src="images/portfo1.png" alt="">
+          <div class="text">
+            <h4 class="mt-3">Ecommerce website</h4>
+            <p>Built with REACT/BOOTSTRAP</p>
+            <div class="d-flex">
+              <a href="https://shop-das.netlify.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/online-shop.git" target="_blank"
+                class="btn btn-secondary ms-3">View code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <img src="images/portfo4.png" alt="">
+          <div class="text">
+            <h4 class="mt-3">Weather App</h4>
+            <p>Built with Javascript/BOOTSTRAP/SCSS</p>
+            <div class="d-flex">
+              <a href="https://weatherdas.netlify.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/weather-app.git" target="_blank"
+                class="btn btn-secondary ms-3">View code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <img src="images/GYM-APP.jpg" alt="">
+          <div class="text">
+            <h4 class="mt-3">Gym Sport App</h4>
+            <p>Built with NextJs/Tailwind//Typescript/SCSS</p>
+            <div class="d-flex">
+              <a href="https://das-gym.vercel.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/das-gym.git" target="_blank"
+                class="btn btn-secondary ms-3">View code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <img src="images/portfo2.png" alt="">
+          <div class="text">
+            <h4 class="mt-3">Booking Car website</h4>
+            <p>Built with HTML/CSS/JS</p>
+            <div class="d-flex">
+              <a href="https://book-cardas.netlify.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/dascar.git" target="_blank" class="btn btn-secondary ms-3">View
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-detail">
+          <img src="images/EDUCOM.jpg" alt="">
+          <div class="text">
+            <h4 class="mt-3">Online School  website</h4>
+            <p>Built with NextJs/Tailwind/Typescript/scss</p>
+            <div class="d-flex">
+              <a href="https://das-elearn.vercel.app/" target="_blank" class="btn btn-secondary">View Live</a>
+              <a href="https://github.com/dascomsoft/das-elearn.git" target="_blank" class="btn btn-secondary ms-3">View
+                code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!---------CAREER SHOWCASE------------->
+
+  <div class="contact" id="contactSection">
+    <div class="container">
+      <div class="contact-container">
+        <div class="contact-content">
+          <h2 class="display-4 text-warning">CONTACT ME</h2>
+          <hr>
+          <p>Feel free to reach out and discover how I can bring value to your team! With a passion for front-end
+            development and a keen eye for design, I'm committed to delivering solutions that not only meet but exceed
+            expectations.
+
+            Let's connect and explore how my skills and experience align with your company's goals. Drop me a message
+            below, and let's take the first step towards building something great together!</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------CONTACT SECTION------------->
+
+  <div class="contact-form">
+    <div class="container">
+      <div class="contact-form-container">
+
+        <div class="contact-reference-a">
+          <div class="contact-reference-detail">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/typicons.font -->
+            <svg id="icon" fill="orange" width="60px" height="60px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.657 5.304c-3.124-3.073-8.189-3.073-11.313 0-3.124 3.074-3.124 8.057 0 11.13l5.656 5.565 5.657-5.565c3.124-3.073 3.124-8.056 0-11.13zm-5.657 8.195c-.668 0-1.295-.26-1.768-.732-.975-.975-.975-2.561 0-3.536.472-.472 1.1-.732 1.768-.732s1.296.26 1.768.732c.975.975.975 2.562 0 3.536-.472.472-1.1.732-1.768.732z" />
+            </svg>
+            <div class="contact-reference-text mt-4">
+              <h3>LOCATION</h3>
+              <p>456 Street,Bld Atangana, <br>Yaounde,Cameroon</p>
+            </div>
+          </div>
+
+          <div class="contact-reference-detail">
+
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- License: PD. Made by stephenhutchings: https://github.com/stephenhutchings/microns -->
+            <svg id="icon" fill="orange" width="50px" height="50px" viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg">
+              <title>mail</title>
+              <path
+                d="M64 128Q64 113 73 105 81 96 96 96L416 96Q431 96 440 105 448 113 448 128L448 144 256 272 64 144 64 128ZM256 328L448 200 448 384Q448 416 416 416L96 416Q64 416 64 384L64 200 256 328Z" />
+            </svg>
+
+            <div class="contact-reference-text mt-4">
+              <h3>MAIL</h3>
+              <p>dassidieu@gmail.com <br>dascomsoft@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-reference-detail">
+
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- License: CC Attribution. Made by salesforce: https://lightningdesignsystem.com -->
+            <svg id="icon" fill="orange" xmlns="http://www.w3.org/2000/svg" width="60px" height="60px"
+              viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+              <path
+                d="M77.7,63.9l-6.2-5c-2.1-1.7-5.1-1.801-7.3-0.2L58.3,63c-0.8,0.6-1.899,0.5-2.6-0.2L46,54l-8.9-9.8
+                           c-0.7-0.7-0.8-1.8-0.2-2.6l4.3-5.9c1.6-2.2,1.5-5.2-0.2-7.3l-5-6.2c-2.2-2.8-6.4-3-8.9-0.5l-5.4,5.4c-1.2,1.2-1.8,2.9-1.8,4.5
+                           c0.7,12.7,6.5,24.8,15,33.3s20.5,14.3,33.3,15c1.7,0.1,3.3-0.601,4.5-1.801L78.1,72.7C80.8,70.3,80.5,66.1,77.7,63.9z" />
+            </svg>
+
+            <div class="contact-reference-text mt-4">
+              <h3>CALL</h3>
+              <p> +237-673-91-67-78 <br> +237-692-65-62-98</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="contact-reference-b">
+          <div class="form-section">
+            <h2>CONTACT FORM</h2>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="SUBMIT" value="SUBMIT" id="submit">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.getElementById('menuToggle');
+      const navbarNavDropdown = document.getElementById('navbarNavDropdown');
+      const navbarLinks = navbarNavDropdown.querySelectorAll('.nav-link');
+
+      navbarLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (navbarNavDropdown.classList.contains('show')) {
+            menuToggle.click(); // Ferme le menu
+          }
+        });
+      });
+    });
+  </script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
