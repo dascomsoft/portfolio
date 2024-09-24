@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Teko", sans-serif;
 }
 
@@ -27,7 +32,8 @@ body {
 .hero-container img {
   width: 100%;
   border-radius: 20px;
-  filter: brightness(0.6) contrast(2); /* Assombrit l'image */
+  filter: brightness(0.6) contrast(2);
+  /* Assombrit l'image */
 }
 .hero-container .hero-detail a {
   text-decoration: none;
@@ -42,7 +48,7 @@ body {
 /*ABOUT SECTION*/
 .about-container {
   background-color: #333;
-  padding: 50px 0 50px;
+  padding: 150px 0 50px;
   color: #fff;
 }
 .about-container .about-content {
@@ -93,7 +99,6 @@ body {
   border: 1px solid #4e4d4d;
   border-radius: 15px;
   transition: 0.3s;
-  cursor: pointer;
 }
 .about-container .about-render .render img {
   width: 30px;
@@ -104,7 +109,7 @@ body {
 
 /*PORFOLIO SECTION*/
 .portfolio-container {
-  padding: 40px 0 100px;
+  padding: 100px 0 100px;
   color: #fff;
 }
 .portfolio-container .underline {
@@ -144,87 +149,64 @@ body {
 
 /*CONTACT SECTION*/
 .contact {
-  padding: 60px 0 40px;
+  padding: 100px 0 40px;
 }
 
-.contact-form {
-  background-image: radial-gradient(rgba(20, 21, 51, 0.7), rgba(20, 21, 51, 0.7)), url(images/soft1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 70px 0 70px;
-  padding: 100px 0 100px;
-}
-.contact-form .contact-form-container {
+.contact-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 30ppx;
+  margin-top: 50px;
+}
+.contact-container a {
+  text-decoration: none;
 }
 @media (max-width: 1000px) {
-  .contact-form .contact-form-container {
+  .contact-container {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
-.contact-form .contact-reference-a {
-  background-image: radial-gradient(rgba(20, 21, 51, 0.6), rgba(20, 21, 51, 0.6));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 70px 0 70px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
-  padding: 30px 20%;
+.contact-container .social-detail .social-icon {
+  cursor: pointer;
 }
-.contact-form .contact-reference-a .contact-reference-detail {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.contact-container .social-detail .social-icon:hover {
   color: #fff;
 }
-@media (max-width: 500px) {
-  .contact-form .contact-reference-a .contact-reference-detail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: #fff;
-  }
-}
-@media (max-width: 500px) {
-  .contact-form .contact-reference-a .contact-reference-detail .contact-reference-text {
-    position: relative;
-    top: -50px;
-  }
-}
-.contact-form .contact-reference-a #icon {
-  margin-bottom: 40px;
-}
-.contact-form .contact-reference-b {
+
+.contact-form .contact-reference {
   background-color: #f8f8ff;
+  height: 100%;
+  max-height: 500px;
 }
-.contact-form .contact-reference-b .form-section {
+.contact-form .contact-reference .form-section {
   display: grid;
   grid-template-columns: 1fr;
-  place-content: center;
-  gap: 30px;
-  padding: 20px;
+  place-items: center;
+  gap: 10px;
+  padding: 15px;
 }
-.contact-form .contact-reference-b .form-section input, .contact-form .contact-reference-b .form-section textarea {
-  padding: 20px;
+.contact-form .contact-reference .form-section input,
+.contact-form .contact-reference .form-section textarea {
+  padding: 10px;
   outline: none;
   border: 1px solid silver;
+  width: 100%;
 }
-.contact-form .contact-reference-b .form-section #submit {
+.contact-form .contact-reference .form-section #submit {
   cursor: pointer;
-  background: #df0707;
+  background: #666363;
   color: #fff;
   font-weight: bolder;
   font-size: 18px;
+  transition: all 0.5s;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.contact-form .contact-reference .form-section #submit:hover {
+  background: #333;
 }/*# sourceMappingURL=index.css.map */
