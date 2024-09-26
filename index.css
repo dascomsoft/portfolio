@@ -12,6 +12,10 @@ body {
   color: #fff;
 }
 
+.resume {
+  border: 1px solid orange;
+}
+
 .hero-container {
   padding: 200px 0 50px;
   color: #fff;
@@ -48,7 +52,7 @@ body {
 /*ABOUT SECTION*/
 .about-container {
   background-color: #333;
-  padding: 150px 0 50px;
+  padding: 100px 0 50px;
   color: #fff;
 }
 .about-container .about-content {
@@ -149,7 +153,7 @@ body {
 
 /*CONTACT SECTION*/
 .contact {
-  padding: 100px 0 40px;
+  padding: 50px 0 40px;
 }
 
 .contact-container {
